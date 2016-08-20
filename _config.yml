@@ -3,7 +3,7 @@
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
-  - jekyll-time-to-read
+    #  - jekyll-time-to-read
 
 exclude:
   - "/vendor/"
