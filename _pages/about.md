@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Hello!"
-excerpt: "Hello!"
+seo_title: "Mikhail Evtikhiev — ML researcher, LLM post-training & evaluation"
+description: "Senior ML Researcher at JetBrains Research working on post-training and evaluation of code LLMs. PhD in theoretical physics (Weizmann Institute)."
 author_profile: true
 redirect_from: 
   - /about/

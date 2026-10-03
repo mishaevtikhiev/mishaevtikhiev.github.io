@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+description: "Publications by Mikhail Evtikhiev on machine learning for code, software engineering, and theoretical physics."
 permalink: /publications/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Academic work"
+description: "Advising, reviewing, teaching, and outreach by Mikhail Evtikhiev."
 permalink: /academic_work/
 author_profile: true
 ---
@@ -15,7 +16,8 @@ author_profile: true
 
 <h3>Author</h3>
 
-<b>2023</b>: <a href="https://conf.researchr.org/home/icse-2023">ICSE</a>, <a href="https://conf.researchr.org/home/ase-2023">ASE</a>,  <a href="https://conf.researchr.org/home/fse-2023">ESEC/FSE</a><br>
+<b>2023</b>: <a href="https://conf.researchr.org/home/icse-2023">ICSE</a>, <a href="https://conf.researchr.org/home/fse-2023">ESEC/FSE</a><br>
+<!-- TODO(misha): ASE 2023 was listed here, but no ASE 2023 paper of yours could be found (arXiv/Crossref). Removed; restore with the paper's metadata if one exists. -->
 <b>2022</b>: <a href="https://conf.researchr.org/home/icse-2022">ICSE</a><br>
 <b>2021</b>: <a href="https://conf.researchr.org/home/msr-2021">MSR</a><br>
 
@@ -54,7 +56,7 @@ author_profile: true
 
 <h3>Theses</h3>
 <b>2020</b>: PhD thesis in Theoretical Physics, "On Superconformal Field Theories and Little String Theories", supervised by <a href="https://inspirehep.net/authors/1018868?ui-citation-summary=true">Prof. Ofer Aharony</a>, <a href="https://weizmann.ac.il">Weizmann Institute of Science</a>.<br>
-<b>2015</b>: Master's thesis in Theoretical Phsyics, "On four dimensional N = 3 superconformal theories", supervised by <a href="https://inspirehep.net/authors/1018868?ui-citation-summary=true">Prof. Ofer Aharony</a>, <a href="https://weizmann.ac.il">Weizmann Institute of Science</a>.<br>
+<b>2015</b>: Master's thesis in Theoretical Physics, "On four dimensional N = 3 superconformal theories", supervised by <a href="https://inspirehep.net/authors/1018868?ui-citation-summary=true">Prof. Ofer Aharony</a>, <a href="https://weizmann.ac.il">Weizmann Institute of Science</a>.<br>
 <b>2013</b>, Bachelor's thesis in Astrophysics, "On properties of Lane-Emden equation", supervised by <a href="https://www.iau.org/administration/membership/individual/3984/">Prof. Dmitry Varshalovich</a>, <a href="https://english.spbstu.ru/university/">St Petersburg Polytechnical University</a>
 
 <hr color="#888888" size="4" noshade>
