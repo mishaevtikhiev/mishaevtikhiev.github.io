@@ -8,3 +8,10 @@ main:
 
   - title: 'Talks'
     url: /talks/
+
+  - title: 'CV'
+    url: /cv/
+
+  # Uncomment once the first post in _posts/ exists (and set published: true in _pages/blog.html)
+  # - title: 'Blog'
+  #   url: /blog/
