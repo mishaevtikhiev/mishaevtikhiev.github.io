@@ -2,11 +2,12 @@
 title: "Judging Adam: Studying the Performance of Optimization Methods on ML4SE Tasks"
 authors: '<i>Dmitry Pasechnyuk, Anton Prazdnichnykh, <b>Mikhail Evtikhiev</b>, and Timofey Bryksin</i>'
 collection: publications
+category: ml4code
 permalink: /publications/2023-05-14-optimizers
 date: 2023-05-14
-venue: "proceedings of <b>ICSE'23</b>"
-level: 'A*'
-pdf: 'https://arxiv.org/pdf/2303.03540.pdf'
+venue: "proceedings of <b>ICSE-NIER'23</b>"
+paperurl: 'https://doi.org/10.1109/ICSE-NIER58687.2023.00027'
+pdf: 'https://arxiv.org/abs/2303.03540'
 counter_id: 'C3'
 abstract: "<p><b>Abstract</b>. Solving a problem with a deep learning model
 requires researchers to optimize the loss function with a certain

@@ -8,23 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-My name is Mikhail (Misha) Evtikhiev, I am a researcher in the
-[Machine Learning Methods in Software Engineering](https://lp.jetbrains.com/research/ml_methods/) lab at
-[JetBrains Research](https://www.jetbrains.com/research/).
+I'm Mikhail (Misha) Evtikhiev, a Senior ML Researcher at [JetBrains Research](https://www.jetbrains.com/research/)
+in Paphos, Cyprus. I lead projects on post-training of
+code LLMs. The question behind most of my work: did post-training actually
+make the model better, and how would we know beyond headline benchmark numbers?
 
-<h2 style="margin-top: -5px;">Background</h2>
+## Research
 
-In 2013, I got a Bachelor's degree with honors in Physics from [St Petersburg Polytechnical University](https://english.spbstu.ru/university/), majoring in Astrophysics.
-I did my graduate studies at [Weizmann Institute of Science](https://weizmann.ac.il), majoring in Theoretical Physics. I got my MSc in 2015 and defended my PhD in 2020.
-My PhD thesis subject was "[On Superconformal Field Theories and Little String Theories](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NuYsOk4AAAAJ&citation_for_view=NuYsOk4AAAAJ:2osOgNQ5qMEC)".
+- **Post-training and transfer.** When do gains from SFT/RL on one task
+  family transfer to others? LoRA vs. full fine-tuning, multi-task and
+  continual learning.
+- **Evaluation methodology.** Construct validity of coding benchmarks,
+  task taxonomies, auditing evaluation harnesses for spurious passes and failures.
 
-I joined Machine Learning Methods in Software Engineering (ML4SE) lab at JetBrains in September 2020, and from December 2020 till December 2023 I was also working in the [Intelligent Collaboration Tools Lab](https://lp.jetbrains.com/research/ictl/) (ICTL). 
-At the ICTL lab, I studied how engineers work in a team, and how can we help them to manage teamwork-related problems. I used exploratory interviews and surveys to understand the pain points better, and devise approaches to create tools that will address these pain points.
+## Selected work
 
-<h2 style="margin-top: -5px;">Research</h2>
+- [Out of the BLEU: How should we assess quality of the Code Generation models?](/publications/2022-08-31-bleu) (JSS 2023)
+- [Kotlin ML Pack: Technical Report](/publications/2024-05-29-kotlin-ml-pack) (arXiv:2405.19250)
+- [Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability — Diverse Evaluation Is Required](/publications/2026-06-26-diverse-evaluation) (DL4Code workshop @ ICML 2026, arXiv:2608.13566)
 
-I am interested in measuring and improving performance of deep learning models for code. I work on that at Machine Learning Methods in Software Engineering group,
-and currently I am focused on the low-resource programming languages.
+All publications are on the [Publications](/publications/) page.
 
+## Background
 
-
+PhD in theoretical physics at the Weizmann Institute (advisor: Ofer Aharony),
+on superconformal field theories and little string theories. In 2020–2023
+I also did mixed-methods software-engineering research on team collaboration.

@@ -63,13 +63,13 @@
         {% elsif post.collection == 'publications' or post.collection == 'publicationsphysics' or post.collection == 'ictl' %}
           {% if post.status == "accepted" %}
           <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-            <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ post.venue }} <span style="color:#888888;">({{ post.level }})</span>. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
+            <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ post.venue }}. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
           {% elsif post.status == "preprint" %}
           <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-            <span style="color:#888888;"><b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b></span>. Published in the <span style="color:#888888;">{{ post.venue }}</span>.</p>
+            <span style="color:#888888;"><b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b></span>. <span style="color:#888888;">{{ post.venue }}</span>.</p>
           {% else %}
           <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-            <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in the {{ post.venue }} <span style="color:#888888;">({{ post.level }})</span>. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
+            <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in the {{ post.venue }}. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
           {% endif %}
 
           {% if post.status == "preprint" %}
@@ -82,7 +82,7 @@
           <a class="{{ color }}" href="{{ post.paperurl }}">DOI</a>
           {% endif %}
           {% if post.pdf %}
-          <a class="{{ color }}" href="{{ post.pdf }}">Pre-print</a>
+          <a class="{{ color }}" href="{{ post.pdf }}">arXiv</a>
           {% endif %}
           {% if post.data %}
           <a class="{{ color }}" href="{{ post.data }}">Data</a>

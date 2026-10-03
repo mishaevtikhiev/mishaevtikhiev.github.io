@@ -44,13 +44,13 @@ layout: default
         {% elsif page.venue and page.date %}
           {% if page.status == "accepted" %}
           <p> {{ page.authors }} </p>
-            <p><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ page.venue }} <span style="color:#888888;">({{ page.level }})</span>. <span style="color:#ad7f00;"><b>{{ page.award }}</b></span></p>
+            <p><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ page.venue }}. <span style="color:#ad7f00;"><b>{{ page.award }}</b></span></p>
           {% elsif page.status == "preprint" %}
           <p> {{ page.authors }} </p>
-          <p><span style="color:#888888;"><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b></span>. Published in the <span style="color:#888888;">{{ page.venue }}</span>.</p>
+          <p><span style="color:#888888;"><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b></span>. <span style="color:#888888;">{{ page.venue }}</span>.</p>
           {% else %}
           <p> {{ page.authors }} </p>
-           <p><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in the {{ page.venue }} <span style="color:#888888;">({{ page.level }})</span>. <span style="color:#ad7f00;"><b>{{ page.award }}</b></span></p>
+           <p><b>{{ page.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in the {{ page.venue }}. <span style="color:#ad7f00;"><b>{{ page.award }}</b></span></p>
           {% endif %}
         {% elsif page.date %}
         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -72,7 +72,7 @@ layout: default
           <a class="{{ color }}" href="{{ page.paperurl }}">DOI</a>
           {% endif %}
           {% if page.pdf %}
-          <a class="{{ color }}" href="{{ page.pdf }}">Pre-print</a>
+          <a class="{{ color }}" href="{{ page.pdf }}">arXiv</a>
           {% endif %}
           {% if page.data %}
           <a class="{{ color }}" href="{{ page.data }}">Data</a>
