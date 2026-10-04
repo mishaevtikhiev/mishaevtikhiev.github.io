@@ -4,6 +4,9 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  schedule:
+    # Rebuild on Jan 1 so the footer's © year (rendered from build time) stays current
+    - cron: "0 6 1 1 *"
 
 permissions:
   contents: read

@@ -3,8 +3,16 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Academic work"
-    url: /academic_work/
+  - title: "Service & mentoring"
+    url: /service/
 
   - title: 'Talks'
     url: /talks/
+
+  # Hidden for now (see published: false in _pages/cv.md)
+  # - title: 'CV'
+  #   url: /cv/
+
+  # Uncomment once the first post in _posts/ exists (and set published: true in _pages/blog.html)
+  # - title: 'Blog'
+  #   url: /blog/

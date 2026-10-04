@@ -1,0 +1,2 @@
+{% assign pub_year = post.date | date: "%Y" %}{% assign title_end = post.title | slice: -1 %}
+<li>{{ post.authors | remove: "<i>" | remove: "</i>" }}. <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% unless title_end == "?" %}.{% endunless %} {% if post.status == "accepted" %}Accepted to {% elsif post.status != "preprint" %}In {% endif %}{{ post.venue | remove: "proceedings of " | remove: "the " }}{% unless post.venue contains pub_year %}, {{ pub_year }}{% endunless %}.</li>

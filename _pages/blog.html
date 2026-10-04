@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Blog"
+description: "Posts by Mikhail Evtikhiev."
+permalink: /blog/
+author_profile: true
+# Not built until the first post exists; then set to true and uncomment the Blog entry in _data/navigation.yml.
+published: false
+---
+
+{% include base_path %}
+
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}

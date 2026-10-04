@@ -8,7 +8,6 @@ venue: "<b>Journal of High Energy Physics</b>"
 paperurl: 'https://doi.org/10.1007/JHEP06(2020)125'
 pdf: 'https://arxiv.org/pdf/2004.03919.pdf'
 counter_id: 'J4'
-level: 'Q2'
 abstract: '<p><b>Abstract</b>: In this paper we discuss various N = 3 SCFTs in 4 dimensions and in particular
 those which can be obtained as a discrete gauging of an N = 4 SYM theories with non-
 simply laced groups. The main goal of the project was to compute the Coulomb branch
