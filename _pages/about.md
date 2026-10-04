@@ -31,6 +31,6 @@ All publications are on the [Publications](/publications/) page.
 
 ## Background
 
-PhD in theoretical physics at the Weizmann Institute (advisor: Ofer Aharony),
-on superconformal field theories and little string theories. In 2021–2023
-I also did mixed-methods software-engineering research on team collaboration.
+PhD in theoretical physics at the Weizmann Institute (advisor: Ofer Aharony), defended in 2020.
+Thesis name: "On superconformal field theories and little string theories". 
+In 2021–2023 I also did mixed-methods software-engineering research on team collaboration.
