@@ -9,8 +9,9 @@ main:
   - title: 'Talks'
     url: /talks/
 
-  - title: 'CV'
-    url: /cv/
+  # Hidden for now (see published: false in _pages/cv.md)
+  # - title: 'CV'
+  #   url: /cv/
 
   # Uncomment once the first post in _posts/ exists (and set published: true in _pages/blog.html)
   # - title: 'Blog'

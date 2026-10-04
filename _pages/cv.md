@@ -4,6 +4,8 @@ title: "CV"
 description: "CV of Mikhail Evtikhiev: Senior ML Researcher at JetBrains Research working on post-training and evaluation of code LLMs."
 permalink: /cv/
 author_profile: true
+# Hidden for now: set to true and uncomment the CV entry in _data/navigation.yml to publish.
+published: false
 ---
 
 {% include base_path %}
@@ -14,8 +16,8 @@ author_profile: true
 ## Experience
 
 **Senior ML Researcher**, [JetBrains Research](https://www.jetbrains.com/research/) — Jan 2026 – present
-- Leads applied research projects with teams of 2–3 researchers.
-- Mentors research interns on training-data filtering and synthesis.
+- Lead applied research projects with teams of 2–3 researchers.
+- Mentor research interns on training-data filtering and synthesis.
 - Post-training and transfer: when gains from SFT/RL on one task family transfer to others; LoRA vs. full fine-tuning; multi-task and continual learning.
 - Evaluation methodology: construct validity of coding benchmarks, task taxonomies, auditing evaluation harnesses for spurious passes and failures.
 
@@ -62,13 +64,16 @@ author_profile: true
 
 ## Advising
 
-<!-- TODO(misha): JetBrains research intern mentoring (see /service/). -->
+- 2025-2026: MSc thesis advisor, Timur Kudashev (Constructor University)
+- 2025: Advisor, Egor Shibaev (Constructor University)
+- 2024: Advisor, Arina Puchkova (LMU)
 - 2022–2023: Co-advisor, Vahid Haratian (Bilkent University).
 - 2021–2022: Advisor, Dmitry Pasechnyuk and Anton Prazdnichnykh (HSE University).
 - 2021: Co-advisor, Elgun Jabrayilzade (Bilkent University).
 
 ## Reviewing
 
+- 2026: NeurIPS, Position paper Track
 - 2024: SANER, Research Track sub-reviewer.
 - 2023: MSR, Technical Track Junior PC.
 - 2023: Bachelor thesis review, Constructor University.

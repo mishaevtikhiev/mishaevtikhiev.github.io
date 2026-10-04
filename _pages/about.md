@@ -19,7 +19,7 @@ make the model better, and how would we know beyond headline benchmark numbers?
   family transfer to others? LoRA vs. full fine-tuning, multi-task and
   continual learning.
 - **Evaluation methodology.** Construct validity of coding benchmarks,
-  task taxonomies, auditing evaluation harnesses for spurious passes and failures.
+  task taxonomies, benchmark creation, designing evaluation.
 
 ## Selected work
 
@@ -32,5 +32,5 @@ All publications are on the [Publications](/publications/) page.
 ## Background
 
 PhD in theoretical physics at the Weizmann Institute (advisor: Ofer Aharony),
-on superconformal field theories and little string theories. In 2020–2023
+on superconformal field theories and little string theories. In 2021–2023
 I also did mixed-methods software-engineering research on team collaboration.

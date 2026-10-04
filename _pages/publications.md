@@ -12,8 +12,6 @@ author_profile: true
 
 <h2>Machine learning for code</h2>
 
-<!-- TODO(misha): add public 2024–2026 items here (position paper, cross-modality fine-tuning paper, anything else public). -->
-
 {% assign ml_pubs = site.publications | where: "category", "ml4code" | sort: "date" | reverse %}
 {% for post in ml_pubs %}{% if post.pinned %}
   {% include archive-single.html %}
