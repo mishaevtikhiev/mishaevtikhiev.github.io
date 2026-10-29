@@ -25,7 +25,7 @@ make the model better, and how would we know beyond headline benchmark numbers?
 
 - [Out of the BLEU: How should we assess quality of the Code Generation models?](/publications/2022-08-31-bleu) (JSS 2023)
 - [Kotlin ML Pack: Technical Report](/publications/2024-05-29-kotlin-ml-pack) (arXiv:2405.19250)
-- [Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability — Diverse Evaluation Is Required](/publications/2026-06-26-diverse-evaluation) (DL4Code workshop @ ICML 2026, arXiv:2608.13566)
+- [Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability — Diverse Evaluation Is Required](/publications/2026-06-26-diverse-evaluation) (NeurIPS Position Paper 2026, arXiv:2608.13566)
 
 All publications are on the [Publications](/publications/) page.
 
